@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.venv/
+venv/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS/Editor
+.DS_Store
+.vscode/
+
+# Model artifacts
+models/*.pt
+models/*.joblib
+models/*.json
