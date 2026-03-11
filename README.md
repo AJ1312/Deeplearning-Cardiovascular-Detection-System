@@ -22,9 +22,9 @@ Deeplearning-Cardiovascular-Detection-System/
 ├── docs/
 │   └── IDFB.md
 ├── models/
-│   ├── heart_disease_net.pt         # generated after training
-│   ├── scaler.joblib                # generated after training
-│   └── metrics.json                 # generated after training
+│   ├── heart_disease_net.pt
+│   ├── scaler.joblib
+│   └── metrics.json
 ├── notebooks/
 │   └── main.ipynb                   # original Jupyter notebook (kept)
 ├── reports/
@@ -147,10 +147,34 @@ pytest -q
 The notebook remains available at:
 - `notebooks/main.ipynb`
 
+The notebook workflow and the Python package implementation follow the same model and end-to-end system logic.
+
 Use it for:
 - EDA and visual analysis
 - interactive training exploration
 - SHAP analysis and plots
+
+## Figures
+
+### Class Distribution
+
+![Class Distribution](reports/figures/class_distribution.png)
+
+### Correlation Matrix
+
+![Correlation Matrix](reports/figures/correlation_matrix.png)
+
+### Training Loss Curve
+
+![Training Loss Curve](reports/figures/training_loss_curve.png)
+
+### ROC Curve
+
+![ROC Curve](reports/figures/roc_curve.png)
+
+### SHAP Feature Importance
+
+![Feature Importance](reports/figures/feature_importance.png)
 
 ## Development Notes
 
